@@ -1,0 +1,133 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+}
+.pagecontainer{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+}
+.logo{
+    height: 50%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+.logo img{
+    height: 100%;
+    margin-left: 30px;
+}
+nav a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #6C63FF;
+    font-weight: 700;
+}
+.EmployerSpaceDescriptionPage
+{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+.description{
+    width: 60%;
+    margin-right: 80px;
+    height: 20rem;
+}
+h1{
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.description p{
+    margin-bottom: 50px;
+}
+.description a{
+    text-decoration: none;
+    color: white;
+    background: #6c63ff;
+    border-radius: 5px;
+    padding: 16px 32px;
+    
+}
+.FirstPageIllustration{
+    height: 60%;
+    width: auto;
+}
+.FirstPageIllustration img{
+    height: 100%;
+}
+.whatWeDoPage{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.secondPageIllustration{
+    height: 50%;
+    width: auto;
+}
+.secondPageIllustration img{
+    height: 100%;
+}
+.secondPageDescription{
+    margin-left: 80px;
+    width: 60%;
+}
+.howItWorksPage{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.video{
+    background: #6c63ff;
+    opacity: 70%;
+    height: 25rem;
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+footer{
+    height: 6rem;
+    background: #6c63ff;
+    display: flex;
+}
+.contentAndIcons{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    display: flex;
+    color: white;
+}
+.content a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+.socialIcons{
+    height: 2rem;
+}
+.socialIcons img{
+    height: 100%;
+    margin-left: 20px;
+}
