@@ -17,7 +17,7 @@
   <body>
     <nav>
       <div class="buttons">
-        <a href="#">My Account</a>
+        <a href="account.html">My Account</a>
         <a href="history.html">History</a>
         <a href="login.html" class="logout">Logout</a>
       </div>
@@ -31,7 +31,7 @@
       <i class="fas fa-search"></i>
     </div>
     <div class="filterandSort">
-      <div class="filter">
+      <div class="filter" onclick="filter()">
         <span>Filter</span>
         <i class="fas fa-filter"></i>
       </div>
@@ -39,6 +39,37 @@
         <span>Sort by</span>
         <i class="fas fa-angle-down"></i>
         <i class="fas fa-angle-up"></i>
+      </div>
+    </div>
+    <div class="filterbox">
+      <div class="schools">
+        <label for="schools">School:</label>
+        <select name="schools" id="schools">
+          <option value="asu">Arizona State University</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+      </div>
+      <div class="designation">
+        <label for="designations">Designation:</label>
+        <select name="designations" id="designations">
+          <option value="graphic designer">Graphic Designer</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+      </div>
+      <div class="companies">
+        <label for="companies">Company:</label>
+        <select name="comapanies" id="companies">
+          <option value="Enterprise Marketing Hub"
+            >Enterprise Marketing Hub</option
+          >
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
       </div>
     </div>
     <div class="searchResults">
@@ -78,5 +109,10 @@
         <p>Enterprise Maketing Hub</p>
       </div>
     </div>
+    <script>
+      function filter() {
+        document.querySelector(".filterbox").classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
