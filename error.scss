@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background: #f2f2f2;
+  width: 85%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+  span {
+    font-size: 110px;
+    font-weight: 900;
+  }
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  width: 35%;
+  text-align: center;
+  margin-top: 20px;
+}
