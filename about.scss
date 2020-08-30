@@ -1,0 +1,127 @@
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+  margin: auto;
+  height: auto;
+}
+.pageContainer {
+  width: 85%;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  height: 6rem;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+.logo {
+  height: 50%;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.logo img {
+  height: 100%;
+  margin-left: 20px;
+}
+nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: 700;
+}
+.logout {
+  color: red;
+}
+footer {
+  height: 6rem;
+  background: #6c63ff;
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+}
+.contentAndIcons {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  display: flex;
+  color: white;
+}
+.content a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+.socialIcons {
+  height: 2rem;
+}
+.socialIcons img {
+  height: 100%;
+  margin-left: 20px;
+}
+.pageContainer {
+  p {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 32px;
+  }
+}
+h2 {
+  margin: 20px 0px;
+}
+.aboutCards {
+  display: flex;
+  align-items: center;
+  width: 750px;
+  justify-content: space-between;
+}
+.aboutCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 360px;
+  width: 230px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  i {
+    font-size: 30px;
+    margin-top: 30px;
+    color: #0072b1;
+    text-decoration: none;
+  }
+  b {
+    font-size: 18px;
+  }
+  span {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
